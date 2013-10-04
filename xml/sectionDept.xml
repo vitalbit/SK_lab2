@@ -6,8 +6,10 @@
 	</Section>
 	<Columns>
 		<Column1 descr = "Сорт яблока">Sort</Column1>
-		<Column2 descr = "Год продажи">Sale_year</Column2>
-		<Column3 descr = "Месяц продажи">Sale_month</Column3>
-		<Column4 descr = "День продажи">Sale_day</Column4>
+		<ColumnDate>
+			<Column2 descr = "Год продажи">Sale_year</Column2>
+			<Column3 descr = "Месяц продажи">Sale_month</Column3>
+			<Column4 descr = "День продажи">Sale_day</Column4>
+		</ColumnDate>
 	</Columns>
 </Appledb>
