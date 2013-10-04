@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Appledb path = "D:\\forgit\\SKlab2\\database\\Apple.db3">
+	<Section>
+		<Apple_id1 descr = "Ид яблока">1</Apple_id1>
+		<Apple_id2 descr = "Ид яблока">2</Apple_id2>
+	</Section>
+	<Columns>
+		<Column1 descr = "Адрес точки продажи">Address</Column1>
+		<Column2 descr = "Год продажи">Sale_year</Column2>
+		<Column3 descr = "Месяц продажи">Sale_month</Column3>
+		<Column4 descr = "День продажи">Sale_day</Column4>
+	</Columns>
+</Appledb>

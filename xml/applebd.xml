@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Appledb path = "D:\\forgit\\SKlab2\\database">
+	<Apple>
+		<Row1 descr = "Ид яблока">Apple_id</Row1>
+		<Row2 descr = "Сорт яблока">Sort</Row2>
+		<Row3 descr = "Страна экспортер">Country</Row3>
+	</Apple>
+	<Dept>
+		<Row1 descr = "Ид места продажи">Dept_id</Row1>
+		<Row2 descr = "ФИО продавца">Saler</Row2>
+		<Row3 descr = "Адрес точки продажи">Address</Row3>
+		<Row4 descr = "Телефон продавца">Phone</Row4>
+	</Dept>
+	<Sale_date>
+		<Row1 descr = "Ид даты">Date_id</Row1>
+		<Row2 descr = "Год продажи">Sale_year</Row2>
+		<Row3 descr = "Месяц продажи">Sale_month</Row3>
+		<Row4 descr = "День продажи">Sale_day</Row4>
+	</Sale_date>
+	<Sale>
+		<Row1 descr = "Ид яблока">Apple_id</Row1>
+		<Row2 descr = "Ид места продажи">Dept_id</Row2>
+		<Row3 descr = "Ид даты">Date_id</Row3>
+		<Row4 descr = "Цена проданного яблок">Price</Row4>
+		<Row5 descr = "Количество проданных яблок">Amount</Row5>
+	</Sale>
+</Appledb>
