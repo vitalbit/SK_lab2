@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Appledb path = "database\Apple.db3">
+	<Fixed>
+		<Sale_date>
+			<Date_id descr = "Ид даты">1</Date_id>
+		</Sale_date>
+	</Fixed>
+	<Fact>
+		<Sale>
+			<Apple_id relativeTo = "Apple"></Apple_id>
+			<Date_id relativeTo = "Sale_date"></Date_id>
+			<Dept_id relativeTo = "Dept"></Dept_id>
+		</Sale>
+	</Fact>
+	<Selection>
+		<Apple>
+			<Sort descr = "Сорт яблока"></Sort>
+		</Apple>
+		<Dept>
+			<Address descr = "Адрес точки продажи"></Address>
+		</Dept>
+	</Selection>
+</Appledb>

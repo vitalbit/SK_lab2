@@ -1,0 +1,10 @@
+c:\users\виталий\documents\visual studio 2010\Projects\SpecKurs_lab2\SpecKurs_lab2\bin\Debug\SpecKurs_lab2.exe
+c:\users\виталий\documents\visual studio 2010\Projects\SpecKurs_lab2\SpecKurs_lab2\bin\Debug\SpecKurs_lab2.pdb
+c:\users\виталий\documents\visual studio 2010\Projects\SpecKurs_lab2\SpecKurs_lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\виталий\documents\visual studio 2010\Projects\SpecKurs_lab2\SpecKurs_lab2\obj\x86\Debug\SpecKurs_lab2.exe
+c:\users\виталий\documents\visual studio 2010\Projects\SpecKurs_lab2\SpecKurs_lab2\obj\x86\Debug\SpecKurs_lab2.pdb
+D:\forgit\SKlab2\SpecKurs_lab2\obj\x86\Debug\SpecKurs_lab2.exe
+D:\forgit\SKlab2\SpecKurs_lab2\obj\x86\Debug\SpecKurs_lab2.pdb
+D:\forgit\SKlab2\SpecKurs_lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\forgit\SKlab2\SpecKurs_lab2\bin\Debug\SpecKurs_lab2.exe
+D:\forgit\SKlab2\SpecKurs_lab2\bin\Debug\SpecKurs_lab2.pdb
