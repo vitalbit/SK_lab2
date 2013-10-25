@@ -1,0 +1,10 @@
+c:\users\виталий\documents\visual studio 2010\Projects\CreateXML\CreateXML\bin\Debug\CreateXML.exe
+c:\users\виталий\documents\visual studio 2010\Projects\CreateXML\CreateXML\bin\Debug\CreateXML.pdb
+c:\users\виталий\documents\visual studio 2010\Projects\CreateXML\CreateXML\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\виталий\documents\visual studio 2010\Projects\CreateXML\CreateXML\obj\x86\Debug\CreateXML.exe
+c:\users\виталий\documents\visual studio 2010\Projects\CreateXML\CreateXML\obj\x86\Debug\CreateXML.pdb
+D:\forgit\SKlab2\CreateXML\CreateXML\obj\x86\Debug\CreateXML.exe
+D:\forgit\SKlab2\CreateXML\CreateXML\obj\x86\Debug\CreateXML.pdb
+D:\forgit\SKlab2\CreateXML\CreateXML\bin\Debug\CreateXML.exe
+D:\forgit\SKlab2\CreateXML\CreateXML\bin\Debug\CreateXML.pdb
+D:\forgit\SKlab2\CreateXML\CreateXML\obj\x86\Debug\ResolveAssemblyReference.cache

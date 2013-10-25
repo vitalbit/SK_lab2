@@ -20,6 +20,24 @@ namespace SpecKurs_lab2
             public List<int> val;
         };
 
+        class Cube
+        {
+            public Dictionary<int, string> data;
+            public List<string> sql;
+
+            public Cube()
+            {
+                data = new Dictionary<int, string>();
+                sql = new List<string>();
+            }
+
+            public bool addSQL(string sqlquery)
+            {
+                sql.Add(sqlquery);
+                return true;
+            }
+        }
+
         class Section
         {
             public string path;
@@ -62,7 +80,9 @@ namespace SpecKurs_lab2
                             }
                             else if (reader.NodeType == XmlNodeType.Text && reader.Value != "")
                             {
-                                table[kol].val.Add(Convert.ToInt32(reader.Value));
+                                string[] split = reader.Value.Split(new Char[] { ' ' });
+                                foreach (string s in split)
+                                    table[kol].val.Add(Convert.ToInt32(s));
                             }
                             else if (reader.NodeType == XmlNodeType.EndElement)
                                 kol++;
@@ -105,7 +125,7 @@ namespace SpecKurs_lab2
                 sql.AppendFormat(" inner join {0} on {1}.{2} = {3}.{4}", section1.factTable[i].description, section1.factTable[i].table,
                     section1.factTable[i].column, section1.factTable[i].description, section1.factTable[i].column);
             for (int i = 0; i != section1.fixedKol; i++)
-                sql.AppendFormat(" where {0}.{1} = {2}", section1.fixedTable[i].table, section1.fixedTable[i].column, section1.fixedTable[i].val[0]);
+                sql.AppendFormat(" where {0}.{1} = {2}", section1.fixedTable[i].table, section1.fixedTable[i].column, section1.fixedTable[i].val[1]);
             SQLiteConnection appleConnection = new SQLiteConnection(String.Format("Data Source={0}", section1.path));
             appleConnection.Open();
             SQLiteCommand appleCommand = new SQLiteCommand(appleConnection);
@@ -117,12 +137,12 @@ namespace SpecKurs_lab2
             appleConnection.Close();
 
             for (int i = 0; i != section1.selectKol; i++)
-                Console.Write("{0} ", section1.selectTable[i].description);
+                Console.Write("{0, -20}", section1.selectTable[i].description);
             Console.WriteLine();
             for (int i = 0; i != dt.Rows.Count; i++)
             {
                 for (int j = 0; j != section1.selectKol; j++)
-                    Console.Write("{0}        ", dt.Rows[i][j]);
+                    Console.Write("{0, -20}", dt.Rows[i][j]);
                 Console.WriteLine();
             }
         }

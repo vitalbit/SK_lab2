@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Applebd database="Apple.db3">
+  <DimensionByColumn>Apple</DimensionByColumn>
+  <DimensionByRow>Dept</DimensionByRow>
+  <FixedDimension>
+    <Sale_date>
+      <Date_id>2 3</Date_id>
+    </Sale_date>
+  </FixedDimension>
+  <Selection>
+    <Apple>
+      <Apple_id>1 2</Apple_id>
+    </Apple>
+    <Dept>
+      <Dept_id>3</Dept_id>
+    </Dept>
+  </Selection>
+</Applebd>

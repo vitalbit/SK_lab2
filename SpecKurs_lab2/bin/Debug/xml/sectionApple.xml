@@ -2,7 +2,7 @@
 <Appledb path = "database\Apple.db3">
 	<Fixed>
 		<Apple>
-			<Apple_id descr = "»д €блока">1</Apple_id>
+			<Apple_id descr = "»д €блока">1 2 3</Apple_id>
 		</Apple>
 	</Fixed>
 	<Fact>
