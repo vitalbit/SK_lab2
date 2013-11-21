@@ -42,7 +42,7 @@ namespace CreateXML
             dimCol = tables[num - 1].ToString();
             xtw.WriteElementString("DimensionByColumn", tables[num - 1].ToString());
             tables.RemoveAt(num - 1);
-            Console.WriteLine("Введите измерение по горизонтали:\n1 - {0}\n2 - {1}", tables[0], tables[1]);
+            Console.WriteLine("Введите измерение по вертикали:\n1 - {0}\n2 - {1}", tables[0], tables[1]);
             num = 0;
             while (num == 0)
             {
