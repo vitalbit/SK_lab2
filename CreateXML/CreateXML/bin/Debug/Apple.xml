@@ -4,15 +4,15 @@
   <DimensionByRow>Apple</DimensionByRow>
   <FixedDimension>
     <Sale_date>
-      <Date_id>1</Date_id>
+      <Date_id>2</Date_id>
     </Sale_date>
   </FixedDimension>
   <Selection>
     <Dept>
-      <Dept_id>2 3</Dept_id>
+      <Dept_id>2 3 4</Dept_id>
     </Dept>
     <Apple>
-      <Apple_id>1 2</Apple_id>
+      <Apple_id>5 1 2</Apple_id>
     </Apple>
   </Selection>
 </Applebd>

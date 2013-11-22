@@ -12,7 +12,11 @@ namespace SpecKurs_lab2
     {
         static void Main(string[] args)
         {
-            Section section1 = new Section("xml//AppleSection.xml");
+            Console.WriteLine("Enter path to your xml file or nothing to take xml file from \"xml//AppleSection.xml\":");
+            string pathxml = Console.ReadLine();
+            Section section1;
+            if (pathxml == "") section1 = new Section("xml//AppleSection.xml");
+            else section1 = new Section(pathxml);
             Console.WriteLine(section1.path);
             XmlTextReader xtr = new XmlTextReader("xml//xmldb.xml");
             Table [] tb = new Table[3];
@@ -50,6 +54,7 @@ namespace SpecKurs_lab2
                 Console.WriteLine();
             }
             appleConnection.Close();
+            Console.ReadKey();
         }
     }
 }

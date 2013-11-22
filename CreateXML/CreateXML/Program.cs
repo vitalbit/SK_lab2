@@ -23,7 +23,7 @@ namespace CreateXML
             Console.WriteLine("Введите имя базы данных:");
             string dbName = Console.ReadLine();
             xtw.WriteStartElement("Applebd");
-            xtw.WriteAttributeString("database", dbName);
+            xtw.WriteAttributeString("database", "database/" + dbName);
             ArrayList tables = new ArrayList(3);
             tables.Add("Dept");
             tables.Add("Apple");

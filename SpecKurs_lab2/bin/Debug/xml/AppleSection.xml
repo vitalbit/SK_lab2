@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Applebd database="database/Apple.db3">
   <DimensionByColumn>Dept</DimensionByColumn>
-  <DimensionByRow>Sale_date</DimensionByRow>
+  <DimensionByRow>Apple</DimensionByRow>
   <FixedDimension>
-    <Apple>
-      <Apple_id>1</Apple_id>
-    </Apple>
+    <Sale_date>
+      <Date_id>1</Date_id>
+    </Sale_date>
   </FixedDimension>
   <Selection>
     <Dept>
-      <Dept_id>1 2</Dept_id>
+      <Dept_id>2 3</Dept_id>
     </Dept>
-    <Sale_date>
-      <Date_id>3 2</Date_id>
-    </Sale_date>
+    <Apple>
+      <Apple_id>1 2</Apple_id>
+    </Apple>
   </Selection>
 </Applebd>
